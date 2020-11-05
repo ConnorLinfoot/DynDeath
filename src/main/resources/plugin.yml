@@ -1,0 +1,7 @@
+name: DynDeath
+version: 1.0.0
+main: dev.linfoot.dyndeath.DynDeath
+api-version: 1.16
+author: "Connor Linfoot"
+depend:
+  - "dynmap"
