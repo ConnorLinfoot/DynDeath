@@ -6,7 +6,7 @@
 
     <groupId>dev.linfoot</groupId>
     <artifactId>DynDeath</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>

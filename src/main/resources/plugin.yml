@@ -1,5 +1,5 @@
 name: DynDeath
-version: 1.0.0
+version: 1.0.1
 main: dev.linfoot.dyndeath.DynDeath
 api-version: 1.16
 author: "Connor Linfoot"
