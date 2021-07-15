@@ -6,12 +6,13 @@
 
     <groupId>dev.linfoot</groupId>
     <artifactId>DynDeath</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
@@ -20,14 +21,18 @@
         </plugins>
     </build>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <repositories>
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>dynmap-repo</id>
+            <url>https://repo.mikeprimm.com/</url>
         </repository>
     </repositories>
 
@@ -39,9 +44,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.webbukkit</groupId>
+            <groupId>us.dynmap</groupId>
             <artifactId>dynmap-api</artifactId>
-            <version>2.5</version>
+            <version>3.1</version>
         </dependency>
     </dependencies>
 
