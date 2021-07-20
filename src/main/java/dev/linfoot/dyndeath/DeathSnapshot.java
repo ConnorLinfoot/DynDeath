@@ -5,13 +5,13 @@ import org.dynmap.markers.Marker;
 
 import java.util.UUID;
 
-public class DeathSnapshot {
+class DeathSnapshot {
     private final UUID player;
     private final long timestamp;
     private final Location location;
     private final Marker marker;
 
-    public DeathSnapshot(UUID player, long timestamp, Location location, Marker marker) {
+    DeathSnapshot(UUID player, long timestamp, Location location, Marker marker) {
         this.player = player;
         this.timestamp = timestamp;
         this.location = location;

@@ -6,7 +6,7 @@
 
     <groupId>dev.linfoot</groupId>
     <artifactId>DynDeath</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
     <build>
         <plugins>
             <plugin>
@@ -47,6 +47,7 @@
             <groupId>us.dynmap</groupId>
             <artifactId>dynmap-api</artifactId>
             <version>3.1</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
