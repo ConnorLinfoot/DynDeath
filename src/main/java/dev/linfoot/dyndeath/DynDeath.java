@@ -37,7 +37,7 @@ public class DynDeath extends JavaPlugin {
     }
 
     DynmapAPI getDynmap() {
-        Plugin plugin = Bukkit.getServer().getPluginManager().getPlugin("Dynmap");
+        Plugin plugin = Bukkit.getServer().getPluginManager().getPlugin("dynmap");
         if (plugin instanceof DynmapAPI) {
             return (DynmapAPI) plugin;
         }
