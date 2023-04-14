@@ -1,5 +1,5 @@
 name: DynDeath
-version: 1.0.2
+version: 1.0.3
 description: "Show markers on DynMap of where players die."
 main: dev.linfoot.dyndeath.DynDeath
 api-version: 1.16
